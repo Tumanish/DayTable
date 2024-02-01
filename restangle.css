@@ -1,0 +1,67 @@
+.grid{
+	display: grid;
+	/* repeat(кол-во,ширина) */
+	grid-template-columns: repeat(8,100px);
+	/* repeat(кол-во,высота) */
+	grid-auto-rows: repeat(8,auto);
+	/* repeat скока надо */
+}
+
+.item{
+	border: 1px solid black;
+}
+
+/* Чтобы мышкой не выделялось */
+div{
+	user-select: none;
+}
+
+/* blue red green yellow white striped */
+.red{
+	background-color: red;
+	background-image:url(/svgSimbols/minus.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.green{
+	background: rgb(0, 255, 60);
+	background-image: url(/svgSimbols/plus.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.yellow{
+	background: yellow;
+	background-image: url(/svgSimbols/plus.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.blue{
+	background: blue;
+	background-image: url(/svgSimbols/plus.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.white{
+	background-color: white;
+	/* background-image: url(/restangle/svgSimbols/plus.svg); */
+	/* background-repeat: no-repeat; */
+	/* background-position: center; */
+	/* background-size: contain; */
+}
+
+.striped{
+	background-color: rgb(249, 21, 181);
+	/* svg полоски надо добавить. */
+	background-image: url(/svgSimbols/anarchy.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+}
