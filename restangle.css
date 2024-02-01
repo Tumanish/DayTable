@@ -19,7 +19,7 @@ div{
 /* blue red green yellow white striped */
 .red{
 	background-color: red;
-	background-image:url(/svgSimbols/minus.svg);
+	background-image:url(svgsimbols/minus.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -60,7 +60,7 @@ div{
 .striped{
 	background-color: rgb(249, 21, 181);
 	/* svg полоски надо добавить. */
-	background-image: url(/svgSimbols/anarchy.svg);
+	background-image: url(/svgsimbols/anarchy.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100% 100%;
