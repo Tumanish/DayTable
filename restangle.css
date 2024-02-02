@@ -19,7 +19,8 @@ div{
 /* blue red green yellow white striped */
 .red{
 	background-color: red;
-	background-image:url(/svgSymbols/plus.svg);
+	/* background-image:url(/svgSymbols/plus.svg); */
+	background-image:url(https://tumanish.github.io/DayTable/svgSymbols/plus.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -27,7 +28,8 @@ div{
 
 .green{
 	background: rgb(0, 255, 60);
-	background-image: url(/svgSymbols/minus.svg);
+	/* background-image: url(/svgSymbols/minus.svg); */
+	background-image: url(https://tumanish.github.io/DayTable/svgSymbols/minus.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -35,7 +37,8 @@ div{
 
 .yellow{
 	background: yellow;
-	background-image: url(/svgSymbols/plus.svg);
+	/* background-image: url(/svgSymbols/plus.svg); */
+	background-image: url(https://tumanish.github.io/DayTable/svgSymbols/plus.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -43,7 +46,8 @@ div{
 
 .blue{
 	background: blue;
-	background-image: url(/svgSymbols/minus.svg);
+	/* background-image: url(/svgSymbols/minus.svg); */
+	background-image: url(https://tumanish.github.io/DayTable/svgSymbols/minus.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -61,7 +65,8 @@ div{
 	background-color: rgb(249, 21, 181);
 	/* svg полоски надо добавить. */
 	/* ?sanitize=true - убрать добавленно для гит хаба */
-	background-image: url(/svgSymbols/anarchy.svg);
+	/* background-image: url(/svgSymbols/anarchy.svg); */
+	background-image: url(https://tumanish.github.io/DayTable/svgSymbols/anarchy.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100% 100%;
